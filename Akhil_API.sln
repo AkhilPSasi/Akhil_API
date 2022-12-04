@@ -5,10 +5,6 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akhil_API", "Akhil_API.csproj", "{59F8EBD8-98B0-48A6-8F0A-0782AF04B3C9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akhil_IdentityServer", "..\Akhil_IdentityServer\Akhil_IdentityServer.csproj", "{50A784B6-2DF0-4DC5-A6E3-FACB066EDE95}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akhil_ConsoleClient", "..\Akhil_ConsoleClient\Akhil_ConsoleClient.csproj", "{FAC955C6-4519-4DAB-8D12-030607A0A07E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{59F8EBD8-98B0-48A6-8F0A-0782AF04B3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59F8EBD8-98B0-48A6-8F0A-0782AF04B3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59F8EBD8-98B0-48A6-8F0A-0782AF04B3C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{50A784B6-2DF0-4DC5-A6E3-FACB066EDE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50A784B6-2DF0-4DC5-A6E3-FACB066EDE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50A784B6-2DF0-4DC5-A6E3-FACB066EDE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50A784B6-2DF0-4DC5-A6E3-FACB066EDE95}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FAC955C6-4519-4DAB-8D12-030607A0A07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAC955C6-4519-4DAB-8D12-030607A0A07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAC955C6-4519-4DAB-8D12-030607A0A07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAC955C6-4519-4DAB-8D12-030607A0A07E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
