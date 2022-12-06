@@ -2,9 +2,7 @@ using Akhil_API.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using System.Configuration;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +14,6 @@ builder.Services.AddControllers();
 /*========================================================================================================*/
 //builder.Services.AddAuthentication("Bearer")
 //    .AddJwtBearer("Bearer", options =>
-//    {
 //        options.Authority = "https://localhost:5001";
 //        options.Audience = "scope1";
 //        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
@@ -95,11 +92,12 @@ builder.Services.AddDbContext<ShopContext>(options =>
 
 //builder.Services.AddDbContext<CoreDbContext>(op => op.UseSqlServer(Configuration.GetConnectionString("Database")));
 
-string connString = builder.Configuration.GetConnectionString("Database");
+//string connString = builder.Configuration.GetConnectionString("dukeConnectionString");
 builder.Services.AddDbContext<CoreDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Database"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString"));
 });
+
 
 /*Enalbe CORS with Web Application Url - START*/
 /*========================================================================================================*/
